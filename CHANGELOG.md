@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/metalcamp/stockx-data/compare/v1.0.4...v1.1.0) (2021-09-03)
+
+
+### Features
+
+* add typescript support ([0dee705](https://github.com/metalcamp/stockx-data/commit/0dee7058ce13e1b0029430055578a3142059b5bc))
+
 ## [1.0.4](https://github.com/metalcamp/stockx-data/compare/v1.0.3...v1.0.4) (2021-09-01)
 
 ### Bug Fixes
