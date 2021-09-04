@@ -2,12 +2,18 @@ module.exports = {
   branches: [
     "main",
     {
-      name: "beta",
+      name: "dev",
       prerelease: true,
     },
   ],
   plugins: [
-    "@semantic-release/commit-analyzer",
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        preset: "angular",
+        releaseRules: "release-rules.js",
+      },
+    ],
     "@semantic-release/release-notes-generator",
     [
       "@semantic-release/changelog",
@@ -20,7 +26,7 @@ module.exports = {
     [
       "@semantic-release/git",
       {
-        assets: ["CHANGELOG.md", "dist/**"],
+        assets: ["CHANGELOG.md", "README.md", "dist/**", "package.json"],
         message:
           "chore(release): set `package.json` to ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
       },
