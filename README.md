@@ -70,7 +70,7 @@ stockX.searchProducts("Jordan 1 Clay Green").then((searchedProduct) => {
 });
 ```
 
-## Fetching prices
+## Fetching sales
 
 The `fetchSales` method takes in one parameter which should be product's uuid/searchKey. Method returns past completed sales for that product / sku.
 
