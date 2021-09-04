@@ -1,4 +1,5 @@
 ## [1.1.1-dev.3](https://github.com/metalcamp/stockx-data/compare/v1.1.1-dev.2...v1.1.1-dev.3) (2021-09-04)
+## [1.1.1](https://github.com/metalcamp/stockx-data/compare/v1.1.0...v1.1.1) (2021-09-04)
 
 
 ### Bug Fixes
@@ -11,6 +12,8 @@
 ### Bug Fixes
 
 * semantic-release/git ([6508e7f](https://github.com/metalcamp/stockx-data/commit/6508e7fd087ec79e3d011d66ef7b475f2f92817b))
+=======
+* dependencies ([4e6a709](https://github.com/metalcamp/stockx-data/commit/4e6a709afdf59abe1f3844794a93517a69807362))
 
 ## [1.1.1-dev.1](https://github.com/metalcamp/stockx-data/compare/v1.1.0...v1.1.1-dev.1) (2021-09-04)
 
