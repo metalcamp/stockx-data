@@ -1,6 +1,6 @@
 {
   "name": "@metalcamp/stockx-data",
-  "version": "1.1.1-dev.1",
+  "version": "1.1.1",
   "description": "Unofficial StockX API to scrape product info utilizing requests/promises",
   "main": "dist/index.js",
   "keywords": [
