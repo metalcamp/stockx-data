@@ -1,3 +1,10 @@
+## [1.1.1-dev.3](https://github.com/metalcamp/stockx-data/compare/v1.1.1-dev.2...v1.1.1-dev.3) (2021-09-04)
+
+
+### Bug Fixes
+
+* **dependencies:** remove deprecated @types/axios @types/algoliasearch ([84b8576](https://github.com/metalcamp/stockx-data/commit/84b8576c32a428be7ad5c9a6d34dd43d0fb9cebf))
+
 ## [1.1.1-dev.2](https://github.com/metalcamp/stockx-data/compare/v1.1.1-dev.1...v1.1.1-dev.2) (2021-09-04)
 
 
