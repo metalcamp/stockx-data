@@ -12,7 +12,7 @@ export interface ProductActivity {
   amount: number;
   createdAt: string;
   shoeSize: string;
-  productId: null;
+  productId: null | string;
   skuUuid: string;
   frequency: string;
   state: string;
