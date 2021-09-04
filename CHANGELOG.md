@@ -1,3 +1,10 @@
+## [1.1.2-dev.2](https://github.com/metalcamp/stockx-data/compare/v1.1.2-dev.1...v1.1.2-dev.2) (2021-09-04)
+
+
+### Bug Fixes
+
+* product activity interface ([c01bdc4](https://github.com/metalcamp/stockx-data/commit/c01bdc450409529a3add0d16c103843800614196))
+
 ## [1.1.2-dev.1](https://github.com/metalcamp/stockx-data/compare/v1.1.1...v1.1.2-dev.1) (2021-09-04)
 
 
