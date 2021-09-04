@@ -2,7 +2,7 @@
   "name": "@metalcamp/stockx-data",
   "version": "1.0.3",
   "description": "Unofficial StockX API to scrape product info utilizing requests/promises",
-  "main": "./dist/index.js",
+  "main": "dist/index.js",
   "keywords": [
     "stockx",
     "request",
@@ -20,16 +20,23 @@
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
     "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/commit-analyzer": "^8.0.1",
     "@semantic-release/git": "^9.0.0",
+    "@semantic-release/github": "^7.2.3",
+    "@semantic-release/npm": "^7.1.3",
+    "@semantic-release/release-notes-generator": "^9.0.3",
     "@types/algoliasearch": "^4.0.0",
     "@types/axios": "^0.14.0",
     "@types/node": "^16.7.10",
     "husky": "^7.0.2",
     "prettier": "^2.3.2",
+    "rimraf": "^3.0.2",
     "typescript": "^4.4.2"
   },
   "scripts": {
     "build": "tsc",
+    "clean": "rimraf dist",
+    "lint": "npx prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
